@@ -1,3 +1,40 @@
+
+import React from "react";
+import { Card, CardGroup } from "react-bootstrap";
+
+function Home() {
+  return (
+    <div className="container mt-5">
+      <h2 className="text-center mb-4">Our Services</h2>
+      <CardGroup>
+        <Card className="m-2">
+          <Card.Body>
+            <Card.Title>Service 1</Card.Title>
+            <Card.Text>Details about Service 1.</Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="m-2">
+          <Card.Body>
+            <Card.Title>Service 2</Card.Title>
+            <Card.Text>Details about Service 2.</Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="m-2">
+          <Card.Body>
+            <Card.Title>Service 3</Card.Title>
+            <Card.Text>Details about Service 3.</Card.Text>
+          </Card.Body>
+        </Card>
+      </CardGroup>
+    </div>
+  );
+}
+
+export default Home;
+
+
+/*
+
 import React from "react";
 
 function Home() {
@@ -17,7 +54,7 @@ function Home() {
 
 export default Home;
 
-
+*/
 
 
 

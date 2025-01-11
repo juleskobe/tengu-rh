@@ -1,5 +1,36 @@
 
 
+
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+
+function About() {
+  return (
+    <Container className="mt-5">
+      <Row>
+        <Col md={6}>
+          <img
+            src="/assets/images/about-us.jpg"
+            alt="Our Team"
+            className="img-fluid rounded"
+          />
+        </Col>
+        <Col md={6}>
+          <h2>About Us</h2>
+          <p>
+            TËNGU RH knows hospitality. It takes years of experience to build
+            solid working relationships.
+          </p>
+          <p>We know the best talent when we see it.</p>
+        </Col>
+      </Row>
+    </Container>
+  );
+}
+
+export default About;
+
+/*
 import React from "react";
 
 function About() {
@@ -25,3 +56,4 @@ function About() {
 }
 
 export default About;
+*/
