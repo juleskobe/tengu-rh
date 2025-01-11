@@ -1,0 +1,7 @@
+
+.active-link {
+    color: #007BFF; /* Highlight the active link */
+    font-weight: bold; /* Make it bold for better visibility */
+    text-decoration: underline; /* Optional underline */
+  }
+  
